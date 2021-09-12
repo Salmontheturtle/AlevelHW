@@ -1,4 +1,4 @@
-package ua.Masliy.HW6;
+package ua.masliy.hw6;
 
 public class Phone {
     public int number;
