@@ -5,3 +5,4 @@ out/
 *.ipr
 *.iws
 README.md
+target/
