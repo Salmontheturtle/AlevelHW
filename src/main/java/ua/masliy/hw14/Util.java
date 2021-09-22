@@ -1,3 +1,5 @@
+package ua.masliy.hw14;
+
 import java.util.List;
 
 public class Util <T> implements Multiplier {
