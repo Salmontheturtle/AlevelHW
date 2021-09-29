@@ -6,7 +6,7 @@ public class MyList<E> {
     private int size = 0;
 
     public void add(E value) {
-        MyNode node = new MyNode(value);
+        MyNode<E> node = new MyNode<>(value);
         if (head != null) {
             MyNode<E> next = head.next;
             if (next == null) {

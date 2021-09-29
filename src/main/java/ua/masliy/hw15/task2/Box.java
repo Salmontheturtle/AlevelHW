@@ -15,10 +15,10 @@ public class Box {
         this.volume = volume;
     }
 
-    @Override
-    public String toString() {
-        return "Box{" +
-                "volume=" + volume +
-                '}';
-    }
+   // @Override
+   // public String toString() {
+   //     return "Box{" +
+   //             "volume=" + volume +
+   //             '}';
+   // }
 }
