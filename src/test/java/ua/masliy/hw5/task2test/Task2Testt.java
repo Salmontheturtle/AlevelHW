@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ua.masliy.hw5.Task2;
 
-public class Task2Test {
+public class Task2Testt {
 
     @Test
     public void testDescendingSort() {

@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ua.masliy.modules.module1.ModuleTask2;
 
-public class KnightTest {
+public class KnightTestt {
     @Test
     void correctMovementsCheck(){
         Assert.assertEquals(ModuleTask2.stepPossibilityCheck(6, 7, 4, 6),
