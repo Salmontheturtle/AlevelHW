@@ -1,8 +1,8 @@
 package ua.masliy.hw15;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 import ua.masliy.hw15.task1.MyList;
 
 public class Hw15Task1 {
@@ -24,16 +24,16 @@ public class Hw15Task1 {
 
     @Test
     void getFromLastTest() {
-        Assert.assertEquals(3, 3);
+        Assertions.assertEquals(3, 3);
     }
 
     @Test
     void getFromLastNullTest() {
-        Assert.assertNull(list.getFromLast(0));
+        Assertions.assertNull(list.getFromLast(0));
     }
 
     @Test
     void getFromLastNotNullTest() {
-        Assert.assertNotNull(list.getFromLast(5));
+        Assertions.assertNotNull(list.getFromLast(5));
     }
 }

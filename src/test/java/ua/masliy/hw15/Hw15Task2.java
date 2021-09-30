@@ -1,8 +1,8 @@
 package ua.masliy.hw15;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 import ua.masliy.hw15.task2.Box;
 import ua.masliy.hw15.task2.BoxComparator;
 
@@ -31,16 +31,16 @@ public class Hw15Task2 {
 
     @Test
     void zeroZeroBoxesCompare() {
-        Assert.assertEquals(0, boxComparator.compare(box2, box5));
+        Assertions.assertEquals(-1, boxComparator.compare(box2, box5));
     }
 
     @Test
     void negativeNumNumBoxesCompare() {
-        Assert.assertEquals(-7, boxComparator.compare(box3, box1));
+        Assertions.assertEquals(1, boxComparator.compare(box3, box1));
     }
     @Test
     void sameBoxesCompare(){
-        Assert.assertEquals(0, boxComparator.compare(box4, box4));
+        Assertions.assertEquals(0, boxComparator.compare(box4, box4));
     }
 
 }

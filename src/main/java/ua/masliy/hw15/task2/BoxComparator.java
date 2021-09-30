@@ -12,6 +12,6 @@ public class BoxComparator implements Comparator<Box> {
 
             return 1;
         }
-        return Integer.compare((int) b.getVolume(), (int) a.getVolume());
+        return Integer.compare(b.getVolume(),  a.getVolume());
     }
 }

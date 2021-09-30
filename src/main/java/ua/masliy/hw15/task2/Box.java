@@ -7,18 +7,11 @@ public class Box {
         this.volume = volume;
     }
 
-    public double getVolume() {
+    public int getVolume() {
         return volume;
     }
 
     public void setVolume(int volume) {
         this.volume = volume;
     }
-
-   // @Override
-   // public String toString() {
-   //     return "Box{" +
-   //             "volume=" + volume +
-   //             '}';
-   // }
 }

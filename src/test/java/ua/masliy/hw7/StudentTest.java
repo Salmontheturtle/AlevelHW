@@ -1,7 +1,7 @@
 package ua.masliy.hw7;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class StudentTest {
     @Test
@@ -11,10 +11,10 @@ public class StudentTest {
         Student student3 = new Student("", "", "", 5);
         Student student4 = new Student("", "", "", 10);
         Student student5 = new Student("", "", "", -5);
-        Assert.assertEquals(80, student1.getScholarship());
-        Assert.assertEquals(80, student2.getScholarship());
-        Assert.assertEquals(100, student3.getScholarship());
-        Assert.assertEquals(80, student4.getScholarship());
-        Assert.assertEquals(80, student5.getScholarship());
+        Assertions.assertEquals(80, student1.getScholarship());
+        Assertions.assertEquals(80, student2.getScholarship());
+        Assertions.assertEquals(100, student3.getScholarship());
+        Assertions.assertEquals(80, student4.getScholarship());
+        Assertions.assertEquals(80, student5.getScholarship());
     }
 }
