@@ -1,7 +1,7 @@
 package ua.masliy.hw5.task2test;
 
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.testng.annotations.Test;
 import ua.masliy.hw5.Task2;
 
 public class Task2Testt {

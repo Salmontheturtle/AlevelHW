@@ -1,8 +1,7 @@
 package ua.masliy.moduleTest;
 
-import org.junit.Test;
-
 import org.junit.jupiter.api.Assertions;
+import org.testng.annotations.Test;
 import ua.masliy.modules.module1.ModuleTask2;
 
 public class KnightTestt {
