@@ -1,8 +1,9 @@
 package ua.masliy.hw16.task3;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class ArrayIterator<E> {
+public class ArrayIterator<E> implements Iterator {
     private final E[] array;
     private int index;
 
